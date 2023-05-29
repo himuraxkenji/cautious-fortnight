@@ -1,0 +1,20 @@
+{
+  "name": "cautious-fortnight",
+  "version": "1.0.0",
+  "description": "store api with node and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himuraxkenji/cautious-fortnight.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himuraxkenji/cautious-fortnight/issues"
+  },
+  "homepage": "https://github.com/himuraxkenji/cautious-fortnight#readme"
+}
