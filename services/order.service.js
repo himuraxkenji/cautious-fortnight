@@ -33,6 +33,19 @@ class OrderService {
     });
     return order;
   }
+  
+  async findByCustomer(customerId) {
+    const orders = await models.Order.findAll(customerId, {
+      where: { '$customer.user.id$': customerId },
+      includes: [
+        {
+          association: 'customer',
+          include: ['user']
+        }
+      ]
+    });
+    return orders;
+  }
 
   async update(id, changes) {
     return {
